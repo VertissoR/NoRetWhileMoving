@@ -16,10 +16,4 @@ https://streamable.com/uc2w5e
 
 ---
 
-DOWNLOAD:
- [GitHub](https://github.com/VertissoR/NoRetWhileMoving)
-or
-[NoReticleWhileMoving.rar|attachment](upload://zDPXkE4fA9TH3exfjmhZ8O1DozE.rar) (1.3 KB)
-
-
 Feel free to modify/use the script to your liking and you can tell me what to add or anything.

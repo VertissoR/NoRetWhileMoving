@@ -12,8 +12,9 @@ Citizen.CreateThread(function()
             local aiming = IsPlayerFreeAiming(player)
             local moving = IsPedWalking(ped)
             local running = IsPedRunning(ped)
+            local isinveh = IsPedInAnyVehicle(ped, false)
             
-            if aiming and not moving and not running and not IsControlPressed(0, 21) then -- SHIFT key to check if player is running
+            if aiming and not moving and not running and not IsControlPressed(0, 21) and not isinveh then -- SHIFT key to check if player is running
                 if not reticle_visible then
                     last_aim = GetGameTimer()
                     reticle_visible = true
